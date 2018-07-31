@@ -10,6 +10,8 @@ namespace Aula3107_Console
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
+            Console.ReadKey();
         }
     }
 }
