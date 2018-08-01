@@ -42,6 +42,7 @@ namespace Aula3107_Console
             }
             //Console.WriteLine("A soma dos nºs é " + soma);
             //ImprimirNumeroDigitado(Id);
+
             Console.ReadKey();
         }
 
