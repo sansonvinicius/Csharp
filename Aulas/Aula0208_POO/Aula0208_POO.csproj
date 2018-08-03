@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelos\Barco.cs" />
     <Compile Include="Modelos\Carro.cs" />
+    <Compile Include="Modelos\IMotorizado.cs" />
     <Compile Include="Modelos\Moto.cs" />
     <Compile Include="Modelos\Veiculo.cs" />
     <Compile Include="Program.cs" />
