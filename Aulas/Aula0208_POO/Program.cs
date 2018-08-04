@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aula0208_POO
 {
+    //Aula dia 02/08
     class Program
     {
         static void Main(string[] args)
