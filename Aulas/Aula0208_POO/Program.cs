@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aula0208_POO
 {
-    //Aula dia 02/08/2018
+    //Aula dia 02/08/2018 Vinicius
     class Program
     {
         static void Main(string[] args)
