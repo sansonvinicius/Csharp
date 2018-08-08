@@ -20,7 +20,7 @@
         <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btn3_Click"/>
         <Button x:Name="btnSoma" Content="+" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSoma_Click"/>
         <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSub_Click"/>
-        <Button x:Name="btnMulti" Content="x" HorizontalAlignment="Left" Margin="374,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713"/>
+        <Button x:Name="btnMulti" Content="x" HorizontalAlignment="Left" Margin="374,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnMulti_Click"/>
         <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="374,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnDiv_Click"/>
         <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="160,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn0_Click"/>
         <Button x:Name="btnIgual" Content="=" HorizontalAlignment="Left" Margin="256,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnIgual_Click"/>

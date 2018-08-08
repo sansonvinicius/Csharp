@@ -84,22 +84,15 @@ namespace Aula0708_WPF
 
         }
 
-        private void btnSoma_Click(object sender, RoutedEventArgs e)
-        {
-            valorFinal += double.Parse(txtTela.Text);
-            txtTela.Text = "";
-            operacao = "+";
-            
-
-        }
-
+       
         private void btnIgual_Click(object sender, RoutedEventArgs e)
         {
             if (operacao == "+")
             {
                 valorFinal += double.Parse(txtTela.Text);
                 txtTela.Text = valorFinal.ToString();
-            }else if(operacao == "/")
+            }
+            else if (operacao == "/")
             {
                 if (double.Parse(txtTela.Text) != 0)
                 {
@@ -110,9 +103,31 @@ namespace Aula0708_WPF
                 {
                     txtTela.Text = "Dividindo por zero";
                 }
+            }
+            else if (operacao == "-")
+            {
+                valorFinal -= double.Parse(txtTela.Text);
+                txtTela.Text = valorFinal.ToString();
 
             }
+            else if (operacao == "x")
+            {
+                valorFinal *= double.Parse(txtTela.Text);
+                txtTela.Text = valorFinal.ToString();
+            }
+
+            
         }
+
+        private void btnSoma_Click(object sender, RoutedEventArgs e)
+        {
+            valorFinal = double.Parse(txtTela.Text);
+            txtTela.Text = "";
+            operacao = "+";
+
+
+        }
+
 
         private void btnDiv_Click(object sender, RoutedEventArgs e)
         {
@@ -124,8 +139,17 @@ namespace Aula0708_WPF
 
         private void btnSub_Click(object sender, RoutedEventArgs e)
         {
+            valorFinal = double.Parse(txtTela.Text);
+            txtTela.Text = "";
+            operacao = "-";
 
         }
 
+        private void btnMulti_Click(object sender, RoutedEventArgs e)
+        {
+            valorFinal = double.Parse(txtTela.Text);
+            txtTela.Text = "";
+            operacao = "x";
+        }
     }
 }
