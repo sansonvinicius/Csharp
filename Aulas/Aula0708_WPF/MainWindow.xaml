@@ -7,15 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnOla" Content="Olá Mundo!" HorizontalAlignment="Left" Margin="316,155,0,0" VerticalAlignment="Top" Width="153" RenderTransformOrigin="0.5,0.5" Height="52" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Foreground="#FF9B5858" Background="#FFCEDE28" FontSize="24">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.091"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        <TextBox x:Name="txtTela" HorizontalAlignment="Left" Height="44" Margin="68,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="66,164,0,0" VerticalAlignment="Top" Width="75" Height="40" Click="Button7_Click"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="160,164,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn8_Click"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="256,164,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn9_Click"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="66,226,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn4_Click"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="160,226,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn5_Click"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="256,226,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn6_Click"/>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="65,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="160,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn2_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btn3_Click"/>
+        <Button x:Name="btnSoma" Content="+" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSoma_Click"/>
+        <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSub_Click"/>
+        <Button x:Name="btnMulti" Content="x" HorizontalAlignment="Left" Margin="374,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713"/>
+        <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="374,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnDiv_Click"/>
+        <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="160,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn0_Click"/>
+        <Button x:Name="btnIgual" Content="=" HorizontalAlignment="Left" Margin="256,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnIgual_Click"/>
     </Grid>
 </Window>
