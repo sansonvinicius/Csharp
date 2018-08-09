@@ -22,16 +22,21 @@ namespace Aula0708_WPF
     {
         double valorFinal = 0;
         string operacao;
-        
+        double x;
+        double y;
+        double pot;
+        double? memoria;
+
+
         public MainWindow()
         {
             InitializeComponent();
-            
+
         }
 
         private void Button7_Click(object sender, RoutedEventArgs e)
         {
-           
+
             txtTela.Text += "7";
 
         }
@@ -83,20 +88,21 @@ namespace Aula0708_WPF
 
         }
 
-       
+
         private void btnIgual_Click(object sender, RoutedEventArgs e)
         {
             if (operacao == "+")
             {
-                valorFinal += double.Parse(txtTela.Text);
-                txtTela.Text = valorFinal.ToString();
+
+                x += double.Parse(txtTela.Text);
+                txtTela.Text = x.ToString();
             }
             else if (operacao == "/")
             {
                 if (double.Parse(txtTela.Text) != 0)
                 {
-                    valorFinal /= double.Parse(txtTela.Text);
-                    txtTela.Text = valorFinal.ToString();
+                    x /= double.Parse(txtTela.Text);
+                    txtTela.Text = x.ToString();
                 }
                 else
                 {
@@ -105,23 +111,38 @@ namespace Aula0708_WPF
             }
             else if (operacao == "-")
             {
-                valorFinal -= double.Parse(txtTela.Text);
-                txtTela.Text = valorFinal.ToString();
+                x -= double.Parse(txtTela.Text);
+                txtTela.Text = x.ToString();
 
             }
             else if (operacao == "x")
             {
-                valorFinal *= double.Parse(txtTela.Text);
-                txtTela.Text = valorFinal.ToString();
+                x *= double.Parse(txtTela.Text);
+                txtTela.Text = x.ToString();
+            }
+            else if (operacao == "pot")
+            {
+                y = double.Parse(txtTela.Text);
+                pot = Math.Pow(x, y);
+                txtTela.Text = pot.ToString();
+
+
+            }
+            else if (operacao == "raiz")
+            {
+                x = Math.Sqrt(x);
+                txtTela.Text = x.ToString();
+
+
             }
 
-            
+
         }
 
         private void btnSoma_Click(object sender, RoutedEventArgs e)
         {
-            
-            valorFinal = double.Parse(txtTela.Text);
+
+            x = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "+";
 
@@ -131,7 +152,7 @@ namespace Aula0708_WPF
 
         private void btnDiv_Click(object sender, RoutedEventArgs e)
         {
-            valorFinal = double.Parse(txtTela.Text);
+            x = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "/";
 
@@ -139,7 +160,7 @@ namespace Aula0708_WPF
 
         private void btnSub_Click(object sender, RoutedEventArgs e)
         {
-            valorFinal = double.Parse(txtTela.Text);
+            x = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "-";
 
@@ -147,7 +168,7 @@ namespace Aula0708_WPF
 
         private void btnMulti_Click(object sender, RoutedEventArgs e)
         {
-            valorFinal = double.Parse(txtTela.Text);
+            x = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "x";
         }
@@ -167,9 +188,34 @@ namespace Aula0708_WPF
 
         private void btnRaiz_Click(object sender, RoutedEventArgs e)
         {
-            valorFinal = Math.Sqrt(double.Parse(txtTela.Text));
-            txtTela.Text = valorFinal.ToString();
+            x = double.Parse(txtTela.Text);
+            txtTela.Text = "";
+            operacao = "raiz";
+        }
 
+
+
+
+        private void BtnMemo_Click(object sender, RoutedEventArgs e)
+        {
+            if (memoria.HasValue)
+            {
+                txtTela.Text = memoria.ToString();
+                memoria = null;
+            }
+            else
+            {
+                memoria = double.Parse(txtTela.Text);
+            }
+        }
+
+        private void btnPot_Click(object sender, RoutedEventArgs e)
+        {
+            x = double.Parse(txtTela.Text);
+            txtTela.Text = "";
+            operacao = "pot";
         }
     }
 }
+
+
