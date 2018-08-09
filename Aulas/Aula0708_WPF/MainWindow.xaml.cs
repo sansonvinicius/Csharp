@@ -20,7 +20,7 @@ namespace Aula0708_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        double valorFinal = 0;
+      
         string operacao;
         double x;
         double y;
@@ -180,7 +180,7 @@ namespace Aula0708_WPF
 
         private void btnC_Click(object sender, RoutedEventArgs e)
         {
-            valorFinal = 0;
+            x = 0;
             txtTela.Text = "";
             operacao = "";
 

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Aula0708_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF92CF88">
         <TextBox x:Name="txtTela" HorizontalAlignment="Left" Height="44" Margin="68,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464"/>
         <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="66,164,0,0" VerticalAlignment="Top" Width="75" Height="40" Click="Button7_Click"/>
         <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="160,164,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn8_Click"/>
@@ -17,16 +17,16 @@
         <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="65,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn1_Click"/>
         <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="160,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn2_Click"/>
         <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btn3_Click"/>
-        <Button x:Name="btnSoma" Content="+" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSoma_Click"/>
-        <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSub_Click"/>
-        <Button x:Name="btnMulti" Content="x" HorizontalAlignment="Left" Margin="374,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnMulti_Click"/>
-        <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="374,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnDiv_Click"/>
+        <Button x:Name="btnSoma" Content="+" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSoma_Click" Background="#FF1CF5E1"/>
+        <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSub_Click" Background="#FFF55526" FontSize="22"/>
+        <Button x:Name="btnMulti" Content="x" HorizontalAlignment="Left" Margin="374,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnMulti_Click" Background="#FF5E78BD"/>
+        <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="374,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnDiv_Click" Background="#FFE4D53D"/>
         <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="160,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn0_Click"/>
         <Button x:Name="btnIgual" Content="=" HorizontalAlignment="Left" Margin="256,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnIgual_Click"/>
         <Button x:Name="btnVirgula" Content="," HorizontalAlignment="Left" Margin="65,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnVirgula_Click"/>
-        <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" Margin="473,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnC_Click"/>
-        <Button x:Name="btnRaiz" Content="Raiz" HorizontalAlignment="Left" Margin="473,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnRaiz_Click"/>
-        <Button x:Name="btnMemo" Content="MEMO" HorizontalAlignment="Left" Margin="473,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="BtnMemo_Click"/>
-        <Button x:Name="btnPot" Content="POT" HorizontalAlignment="Left" Margin="473,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnPot_Click"/>
+        <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" Margin="473,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnC_Click" Background="#FFE4D53D"/>
+        <Button x:Name="btnRaiz" Content="Raiz" HorizontalAlignment="Left" Margin="473,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnRaiz_Click" Background="#FF5E78BE"/>
+        <Button x:Name="btnMemo" Content="MEMO" HorizontalAlignment="Left" Margin="473,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="BtnMemo_Click" Background="#FFF55526"/>
+        <Button x:Name="btnPot" Content="POT" HorizontalAlignment="Left" Margin="473,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnPot_Click" Background="#FF45E6BA"/>
     </Grid>
 </Window>
