@@ -16,7 +16,6 @@
         <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="256,226,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn6_Click"/>
         <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="65,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn1_Click"/>
         <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="160,288,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn2_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40"/>
         <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="256,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btn3_Click"/>
         <Button x:Name="btnSoma" Content="+" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSoma_Click"/>
         <Button x:Name="btnSub" Content="-" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnSub_Click"/>
@@ -24,5 +23,8 @@
         <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Left" Margin="374,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnDiv_Click"/>
         <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="160,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btn0_Click"/>
         <Button x:Name="btnIgual" Content="=" HorizontalAlignment="Left" Margin="256,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnIgual_Click"/>
+        <Button x:Name="btnVirgula" Content="," HorizontalAlignment="Left" Margin="65,350,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnVirgula_Click"/>
+        <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" Margin="473,164,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnC_Click"/>
+        <Button x:Name="btnRaiz" Content="Raiz" HorizontalAlignment="Left" Margin="473,226,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="1.849,0.713" Click="btnRaiz_Click"/>
     </Grid>
 </Window>

@@ -22,8 +22,6 @@ namespace Aula0708_WPF
     {
         double valorFinal = 0;
         string operacao;
-        long num1 = 0;
-        long num2 = 0;
         
         public MainWindow()
         {
@@ -33,6 +31,7 @@ namespace Aula0708_WPF
 
         private void Button7_Click(object sender, RoutedEventArgs e)
         {
+           
             txtTela.Text += "7";
 
         }
@@ -121,6 +120,7 @@ namespace Aula0708_WPF
 
         private void btnSoma_Click(object sender, RoutedEventArgs e)
         {
+            
             valorFinal = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "+";
@@ -150,6 +150,26 @@ namespace Aula0708_WPF
             valorFinal = double.Parse(txtTela.Text);
             txtTela.Text = "";
             operacao = "x";
+        }
+
+        private void btnVirgula_Click(object sender, RoutedEventArgs e)
+        {
+            txtTela.Text += ",";
+        }
+
+        private void btnC_Click(object sender, RoutedEventArgs e)
+        {
+            valorFinal = 0;
+            txtTela.Text = "";
+            operacao = "";
+
+        }
+
+        private void btnRaiz_Click(object sender, RoutedEventArgs e)
+        {
+            valorFinal = Math.Sqrt(double.Parse(txtTela.Text));
+            txtTela.Text = valorFinal.ToString();
+
         }
     }
 }
