@@ -28,3 +28,4 @@ Acessar uma propriedade DbSet em um objeto de contexto representa uma consulta i
 
 - Classe contexto: 
 O contexto é o responsável por mapear as nossas classes com o banco de dados e também por informar ao engine quem é o banco de dados, através da string de conexão
+A classe repoonsável por interagir com as classes de negócios, para pesquisar, atualizar, persistir é a classe DbContext
