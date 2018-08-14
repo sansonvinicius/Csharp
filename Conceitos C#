@@ -1,4 +1,4 @@
-O que é ORM
+- O que é ORM
 
 ORM – Object Relational Management ( O entity framework é um ORM)
 
@@ -21,3 +21,10 @@ Vantagens de se usar um ORM
 - Melhora a padronização da sua aplicação.
 
 Referência: https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158
+
+-DbSet: 
+
+Acessar uma propriedade DbSet em um objeto de contexto representa uma consulta inicial que retorna todas as entidades do tipo especificado. 
+
+- Classe contexto: 
+O contexto é o responsável por mapear as nossas classes com o banco de dados e também por informar ao engine quem é o banco de dados, através da string de conexão

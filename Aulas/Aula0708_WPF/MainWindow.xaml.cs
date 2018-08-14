@@ -25,6 +25,7 @@ namespace Aula0708_WPF
         double x;
         double y;
         double pot;
+        //interrogação transforma a variável em uma nullable
         double? memoria;
 
 
