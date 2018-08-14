@@ -1,0 +1,21 @@
+O que é ORM
+
+ORM – Object Relational Management ( O entity framework é um ORM)
+
+É um framework ou um conjunto de classes utilizado para armazenar e recuperar informações em bancos de dados relacionais, sem precisar escrever códigos de conexão com o banco.
+
+ORM é uma técnica de mapeamento objeto relacional que visa criar uma camada de mapeamento entre nosso modelo de objetos (aplicação) e nosso modelo relacional (banco de dados)
+
+ORM (Object Relational Mapping) é uma técnica para mapeamento entre um modelo de dados relacional e um modelo orientado a objetos que visa resolver, ou pelo menos minimizar, as diferenças entres estes dois modelos. Para facilitar a aplicação desta técnica surgiram os frameworks ORM, como por exemplo, o NHibernate e o Entity Framework. Desta forma, esses frameworks se localizam em uma camada intermediária entre a lógica da sua aplicação e o seu SGDB.
+
+
+
+Vantagens de se usar um ORM
+
+- Você escreve menos código e programa com muito mais produtividade.
+
+- Seu código fica mais elegante.
+
+- É mais fácil de dar manutenção no projeto.
+
+- Melhora a padronização da sua aplicação.
