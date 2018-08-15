@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula0208_POO", "Aula0208_PO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula0708_WPF", "Aula0708_WPF\Aula0708_WPF.csproj", "{1845FF6A-48DD-4834-BB9A-CF7C255E1A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1408_EntityFramework", "Aula1408_EntityFramework\Aula1408_EntityFramework.csproj", "{38140EAA-5B55-4454-BC3B-04C001367680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1845FF6A-48DD-4834-BB9A-CF7C255E1A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1845FF6A-48DD-4834-BB9A-CF7C255E1A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1845FF6A-48DD-4834-BB9A-CF7C255E1A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38140EAA-5B55-4454-BC3B-04C001367680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38140EAA-5B55-4454-BC3B-04C001367680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38140EAA-5B55-4454-BC3B-04C001367680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38140EAA-5B55-4454-BC3B-04C001367680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
