@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Aula1408_EntityFramework
 {
     public class Class1
+
     {
     }
 }
