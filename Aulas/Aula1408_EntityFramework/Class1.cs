@@ -8,6 +8,16 @@ namespace Aula1408_EntityFramework
 {
     public class Class1
 
+        /*Conceitor
+         * Instalando Entity Framework
+         * Criando base (Abordagem: Model First)
+         * */
+
+
     {
+
+
+
+
     }
 }
