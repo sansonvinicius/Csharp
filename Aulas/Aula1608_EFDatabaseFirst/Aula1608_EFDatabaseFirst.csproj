@@ -87,6 +87,7 @@
       <DependentUpon>AdventureWorks2016Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="CountryRegion.cs">
       <DependentUpon>AdventureWorks2016Model.tt</DependentUpon>
     </Compile>
