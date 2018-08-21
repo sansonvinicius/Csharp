@@ -58,14 +58,14 @@ namespace Aula1608_EFDatabaseFirst.Controllers
             }
         }
 
-        List<Product> PesquisarPorColor(string color)
+        List<Product> PesquisarPorTamanho(string size)
         {
 
             AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
-            
+
             var listaProdutos = from prod in contexto.Product
-                        where prod.Color == color
-                        select prod;
+                                where prod.Size == size
+                                select prod;
 
             return listaProdutos.ToList();
         }
