@@ -46,5 +46,27 @@ namespace Aula1608_EFDatabaseFirst.Controllers
 
             }
         }
+
+        void Editar(int id, Person novosDadosPerson)
+        {
+            //Procura por id e atualiza os dados em novoDadosPerson
+            Person personAntigo = BuscarPorId(id);
+
+            if(personAntigo != null)
+            {
+                personAntigo.FirstName = novosDadosPerson.FirstName;
+                personAntigo.LastName = novosDadosPerson.LastName;
+                personAntigo.Title = novosDadosPerson.Title;
+
+                AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
+                contexto.Entry(personAntigo).State = System.Data.Entity.EntityState.Modified;
+
+                //Não esquecer o save changes no final do método
+                contexto.SaveChanges();
+
+
+
+            }
+        }
     }
 }
