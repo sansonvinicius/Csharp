@@ -19,6 +19,7 @@ namespace Aula2108_CodeFirst.Modelos
         //Chave estrangeira da tabela. Os nomes tem que ser iguais
         public int CategoriaID { get; set; }
         //Propriedade de navegação 
+        //Uma categoria para vários produtos
         public virtual Categoria _Categoria { get; set; }
     }
 }
