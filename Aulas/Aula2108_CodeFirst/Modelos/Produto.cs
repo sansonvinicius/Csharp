@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula2108_CodeFirst.Modelos
 {
-    class Produto
+    public class Produto
     {
         public int ProdutoID { get; set; }
         public string Nome { get; set; }

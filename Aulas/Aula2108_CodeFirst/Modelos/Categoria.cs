@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aula2108_CodeFirst.Modelos
 {
-    class Categoria
+    public class Categoria
     {
         //Chave primária: O Entity reconhece se usar a palavra Id/ID/id ou nomeClasseID(CategoriaID)
         [Key]//Data Notation para chave primária
