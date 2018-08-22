@@ -48,11 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Modelos\Categoria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Modelos\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
