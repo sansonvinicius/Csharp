@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Modelos\Categoria.cs" />
+    <Compile Include="Modelos\DAL\Contexto.cs" />
     <Compile Include="Modelos\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
