@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewWPF", "ViewWPF\ViewWPF.csproj", "{5972A347-EAA1-454C-90FF-46F2D15BBB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{0139FA26-2C33-4ABE-B2D4-149288BCBEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{D6F1016B-8073-4477-A8F6-9FBD0F601131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5972A347-EAA1-454C-90FF-46F2D15BBB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5972A347-EAA1-454C-90FF-46F2D15BBB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5972A347-EAA1-454C-90FF-46F2D15BBB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5972A347-EAA1-454C-90FF-46F2D15BBB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0139FA26-2C33-4ABE-B2D4-149288BCBEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0139FA26-2C33-4ABE-B2D4-149288BCBEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0139FA26-2C33-4ABE-B2D4-149288BCBEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0139FA26-2C33-4ABE-B2D4-149288BCBEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F1016B-8073-4477-A8F6-9FBD0F601131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F1016B-8073-4477-A8F6-9FBD0F601131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F1016B-8073-4477-A8F6-9FBD0F601131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F1016B-8073-4477-A8F6-9FBD0F601131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046F4D32-7405-4AA7-9683-EC6D97D20EF6}
+	EndGlobalSection
+EndGlobal
