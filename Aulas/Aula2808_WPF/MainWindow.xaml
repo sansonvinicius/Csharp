@@ -16,6 +16,15 @@
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
+        <!--O stackPanel e o Gtrid são "blocos" em que são colocados os elementos-->
+        <!--Grid não leva a definição dos elementos dentro, para isso é usado o painel-->
+        <StackPanel HorizontalAlignment="Center"  VerticalAlignment="Center" Orientation="Vertical" Grid.Row="1" 
+                    Grid.Column="1" Width="100px" Height="100px">
+            <Button Content="Button"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="TextBox"/>
+
+        </StackPanel>
+
 
     </Grid>
 </Window>
