@@ -1,0 +1,31 @@
+Pesquisa sobre MVVM:
+
+1. O que significa MVVM?
+É um padrão de projeto que tem como objetivo manter uma separação entre a classe view e a classe model. O usuário interage por meio 
+da classe ViewModel. As camadas não se conhecem e a camada View conhece a ViewModel e a comunicação ocorre por 
+meio do Binding.
+Pelo dataBinding a View notifica a ViewModel da ocorencia de eventos e disparo de comandos. Como resposta as notificações a ViewModel 
+realiza a ação no Model.
+
+2.Qual o propósito(o porque) da arquitetura MVVM?
+O propósito de utilizar a arquitetura MVVM é separar completamente a interface do usuário da lógica do negócio, desenvolvendo um código 
+limpo e facil de ser testado. Desacoplando Model e View é possível alterar a interface do usuário ou a lógica de programação sem danificar 
+o código existente e fazer alterações de maneira mais fácil.
+
+3. Qual o papel da camada ViewModel?
+A camada ViewModel será responsável pela comunicação entre a View e a Model pois uma não conhece a outra. A ViewModel apresenta uma lógica
+de apresentação para a View e dependendo do que ocorre na View ela gera uma reação na model.
+
+4. Para que serve a interface INotifyPropertyChanged?
+Essa interface serve para notificar quando o estado de uma propriedade sofre alteração.
+
+5. Como representar uma coleção no ViewModel?
+A classe ViewModel obtem os dados da Model e apresenta na View por meio do DataBinding. A ViewModel herda uma classe 
+ObservableCollection<T> que "transforma" a ViewModel em uma coleção de objetos e notifica sempre que uma coleção é modificada, facilitando 
+os mecanismos de databinding.
+
+6. Como configurar o Binding de um componente no XAML?
+Criar a instância da classe Binding que será responsável por vincular os dados entre os controles da tela. 
+Informar a propriedade Source do objeto binding que informa a fonte de dados a ser pesquisada, de onde o valor lido será vinculado ao contrle
+Nesta propriedade é possível vincular qualquer objeto do .NET, incluindo coleções, arquivos XML ou classes 
+que contenham acesso a banco de dados.
